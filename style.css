@@ -1,0 +1,25 @@
+.card{
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 7px;
+}
+img{
+    max-width: 100%;
+    border-radius: 7px;
+    height: 300px;
+    width: 100%;
+}
+button{
+    display: none;
+}
+@media screen and (min-width:320px){
+    button{
+        display: block;
+    }
+}
+@media screen and (min-width:760px){
+    .card{
+        display: flex;
+        gap: 10px;
+    }
+}
